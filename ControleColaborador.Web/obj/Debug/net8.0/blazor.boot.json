@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ControleColaborador.Web",
   "resources": {
-    "hash": "sha256-JBiezcd4lx9/6sJx7ICxX8STVX5Tp5Ndmr6h71LXxvE=",
+    "hash": "sha256-Pmvga91Eir7lCKMUQyg+PiaAmywjvf6sCN4c+XYbkdI=",
     "jsModuleNative": {
       "dotnet.native.8.0.6.527nki4qaf.js": "sha256-YU6M9+jtDVnB8/wtrgIndOstzNh778Ls8g9XnbjorSk="
     },
@@ -215,10 +215,10 @@
       "mscorlib.wasm": "sha256-masKveCdoRSahF99doEQk7H3YN2wHLVIE4M/Zu8OoD8=",
       "netstandard.wasm": "sha256-z1EJOmgVhSpTopn7Tek/0P//MKGF1I3NUD/sh4oLnwY=",
       "System.Private.CoreLib.wasm": "sha256-tuIWpR30u0OoEVtv4pXZ47mEpI2AmFBIyYFPnqDZZfw=",
-      "ControleColaborador.Web.wasm": "sha256-2ce8riwDUYbp+pY1GOx2XXsAAPHQlBYhZu99AmcUKGk="
+      "ControleColaborador.Web.wasm": "sha256-7JXoVX8jMuxCxFToPjTzKtkzI+a9Nfxv6ZVnR/pJPNI="
     },
     "pdb": {
-      "ControleColaborador.Web.pdb": "sha256-OF1Z1Kx+P9UXJVQXtIX7Zq0Hrrfb+7h9HAPjU5cpNXY="
+      "ControleColaborador.Web.pdb": "sha256-bE9WfOEps6WberDh1RMhtc4bFypbxqYxnLW6ExxO2gs="
     }
   },
   "cacheBootResources": true,

@@ -37,6 +37,9 @@ Certifique-se de ter o SDK do .NET Core instalado na sua máquina.
    - Selecione "Propriedades da Solução".
    - Em "Configurações de Inicialização", marque os projetos `ControleColaborador.API` e `ControleColaborador.Web`.
 
+   ![alt text](image.png)
+   ![alt text](image-1.png)
+
 2. Inicie a solução. Isso iniciará tanto o servidor da API quanto o frontend da aplicação Blazor WebAssembly.
 
 3. Abra o navegador e acesse `https://localhost:7166` para visualizar o frontend da aplicação Blazor WebAssembly.
@@ -52,7 +55,3 @@ Certifique-se de ter o SDK do .NET Core instalado na sua máquina.
 - **Edição de Colaborador:** Edite as informações de um colaborador existente através de uma modal.
 - **Atualização Automática:** As modais atualizam a página automaticamente ao fechar.
 - **Validação de Email:** Validação de email utilizando JavaScript ao sair do campo. Caso o email seja inválido, um aviso é mostrado abaixo do campo.
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).

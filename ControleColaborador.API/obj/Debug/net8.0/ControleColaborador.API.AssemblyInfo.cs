@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControleColaborador.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41eddd3fed535184d28947e670ab324f89a09ac1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29d9c4a886d7b237c7b07eae0c368d7b80e83175")]
 [assembly: System.Reflection.AssemblyProductAttribute("ControleColaborador.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ControleColaborador.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
