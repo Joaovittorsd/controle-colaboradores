@@ -1,0 +1,96 @@
+﻿@page "/"
+@inject IDialogService DialogService
+@inject ColaboradorAPI ColaboradorAPI
+
+<div class="container mt-4 mb-4">
+    <MudTable Items="@colaboradores" Dense="@denso" Hover="@hover" Bordered="@comBorda" Striped="@listrado" Filter="new Func<ColaboradorResponse,bool>(FiltrarColaboradorPorBusca)" @bind-SelectedItem="colaboradorSelecionado" Class="mb-4">
+        <ToolBarContent>
+            <MudText Typo="Typo.h6">Lista de Colaboradores</MudText>
+            <MudSpacer />
+            <div class="d-flex">
+                <MudTextField @bind-Value="stringDeBusca" Placeholder="Buscar" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+            </div>
+            <MudButton Variant="Variant.Filled" Size="Size.Small" Color="Color.Primary" Style="height: 30px;" @onclick="RealizarBusca">Buscar</MudButton>
+        </ToolBarContent>
+        <HeaderContent>
+            <MudTh>#</MudTh>
+            <MudTh>Nome</MudTh>
+            <MudTh>E-mail</MudTh>
+            <MudTh>Telefone</MudTh>
+            <MudTh>Cargo</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd DataLabel="Id" @onclick="() => AbrirDialogo(context, maxWidth)">@context.Id</MudTd>
+            <MudTd DataLabel="Nome" @onclick="() => AbrirDialogo(context, maxWidth)">@context.Nome</MudTd>
+            <MudTd DataLabel="Email" @onclick="() => AbrirDialogo(context, maxWidth)">@context.Email</MudTd>
+            <MudTd DataLabel="Telefone" @onclick="() => AbrirDialogo(context, maxWidth)">@context.Telefone</MudTd>
+            <MudTd DataLabel="Cargo" @onclick="() => AbrirDialogo(context, maxWidth)">@context.NomeCargo</MudTd>
+        </RowTemplate>
+        <PagerContent>
+            <MudTablePager />
+        </PagerContent>
+    </MudTable>
+
+    <div class="d-flex flex-wrap mt-4">
+        <MudSwitch @bind-Checked="@hover" Color="Color.Primary" Class="me-2">Com Realce</MudSwitch>
+        <MudSwitch @bind-Checked="@denso" Color="Color.Secondary" Class="me-2">Denso</MudSwitch>
+        <MudSwitch @bind-Checked="@listrado" Color="Color.Tertiary" Class="me-2">Listrado</MudSwitch>
+        <MudSwitch @bind-Checked="@comBorda" Color="Color.Warning" Class="me-2">Com Borda</MudSwitch>
+        <MudSpacer />
+        <div style="min-width:200px;">
+            <MudText Inline="true" Class="align-self-center">Selecionado: @colaboradorSelecionado?.Nome</MudText>
+        </div>
+    </div>
+</div>
+
+@code {
+    private bool denso = false;
+    private bool hover = true;
+    private bool listrado = false;
+    private bool comBorda = false;
+    private string stringDeBusca = "";
+    private ColaboradorResponse? colaboradorSelecionado = null;
+    private HashSet<ColaboradorResponse> colaboradoresSelecionados = new HashSet<ColaboradorResponse>();
+    DialogOptions maxWidth = new DialogOptions() { MaxWidth = MaxWidth.Medium, FullWidth = true };
+
+    private IEnumerable<ColaboradorResponse> colaboradores = new List<ColaboradorResponse>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        colaboradores = await ColaboradorAPI.GetColaboradoresAsync();
+    }
+
+    private async Task RealizarBusca()
+    {
+        colaboradores = (await ColaboradorAPI.GetColaboradoresAsync())
+            .Where(colaborador => FiltrarColaboradorPorBusca(colaborador))
+            .ToList();
+    }
+
+    private bool FiltrarColaboradorPorBusca(ColaboradorResponse colaborador) => FiltrarColaborador(colaborador, stringDeBusca);
+
+    private bool FiltrarColaborador(ColaboradorResponse colaborador, string stringDeBusca)
+    {
+        if (string.IsNullOrWhiteSpace(stringDeBusca))
+            return true;
+        if (colaborador.Id.ToString().Contains(stringDeBusca, StringComparison.OrdinalIgnoreCase))
+            return true;
+        if (colaborador.Nome.Contains(stringDeBusca, StringComparison.OrdinalIgnoreCase))
+            return true;
+        if (colaborador.Email.Contains(stringDeBusca, StringComparison.OrdinalIgnoreCase))
+            return true;
+        if (colaborador.Telefone.Contains(stringDeBusca, StringComparison.OrdinalIgnoreCase))
+            return true;
+        if (colaborador.NomeCargo.Contains(stringDeBusca, StringComparison.OrdinalIgnoreCase))
+            return true;
+        return false;
+    }
+
+    private void AbrirDialogo(ColaboradorResponse colaborador, DialogOptions options)
+    {
+        var parameters = new DialogParameters();
+        parameters.Add("ColaboradorId", colaborador.Id.ToString());
+
+        DialogService.Show<ColaboradorFormulario>("Editar Colaborador", parameters, options);
+    }
+}

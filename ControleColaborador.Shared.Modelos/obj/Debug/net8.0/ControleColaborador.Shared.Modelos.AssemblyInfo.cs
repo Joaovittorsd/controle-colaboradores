@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControleColaborador.Shared.Modelos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6dd48ccf5ed551f53b60fb0c077450a266f0ab89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41eddd3fed535184d28947e670ab324f89a09ac1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ControleColaborador.Shared.Modelos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ControleColaborador.Shared.Modelos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

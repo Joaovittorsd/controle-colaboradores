@@ -36,12 +36,12 @@ public static class ColaboradoresExtensions
         /// Endpoint para obter um colaborador pelo nome.
         /// </summary>
         /// <param name="dal">Instância de DAL para acessar os dados dos colaboradores.</param>
-        /// <param name="nome">Nome do colaborador a ser buscado.</param>
+        /// <param name="id">Nome do colaborador a ser buscado.</param>
         /// <returns>Retorna os dados do colaborador. Se o colaborador não for encontrado, retorna 404 (Not Found).</returns>
         /// <remarks>Este método usa injeção de dependência para obter a instância de DAL e faz uma busca case-insensitive pelo nome do colaborador.</remarks>
-        grupoBuilder.MapGet("{nome}", ([FromServices] DAL<Colaborador> dal, string nome) =>
+        grupoBuilder.MapGet("{id}", ([FromServices] DAL<Colaborador> dal, int id) =>
         {
-            var colaborador = dal.RecuperarPor(c => c.Nome!.Trim().Equals(HttpUtility.UrlDecode(nome), StringComparison.OrdinalIgnoreCase));
+            var colaborador = dal.RecuperarPor(c => c.Id == id);
             if (colaborador is null)
             {
                 return Results.NotFound();
@@ -49,6 +49,7 @@ public static class ColaboradoresExtensions
             return Results.Ok(EntityToResponse(colaborador));
 
         });
+
 
         /// <summary>
         /// Endpoint para criar um novo colaborador.

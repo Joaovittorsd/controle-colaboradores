@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Modelos\\ControleColaborador.Shared.Modelos.csproj": {}
+    "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Shared.Modelos\\ControleColaborador.Shared.Modelos.csproj": {}
   },
   "projects": {
-    "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Modelos\\ControleColaborador.Shared.Modelos.csproj": {
+    "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Shared.Modelos\\ControleColaborador.Shared.Modelos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Modelos\\ControleColaborador.Shared.Modelos.csproj",
+        "projectUniqueName": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Shared.Modelos\\ControleColaborador.Shared.Modelos.csproj",
         "projectName": "ControleColaborador.Shared.Modelos",
-        "projectPath": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Modelos\\ControleColaborador.Shared.Modelos.csproj",
+        "projectPath": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Shared.Modelos\\ControleColaborador.Shared.Modelos.csproj",
         "packagesPath": "C:\\Users\\vitto\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Modelos\\obj\\",
+        "outputPath": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Shared.Modelos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vitto\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

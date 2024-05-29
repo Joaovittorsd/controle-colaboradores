@@ -21,3 +21,15 @@ C:\projetos-vitor\Controle-Colaborador\ControleColaborador.Shared.Modelos\obj\De
 C:\projetos-vitor\Controle-Colaborador\ControleColaborador.Shared.Modelos\obj\Debug\net8.0\ControleColaborador.Shared.Modelos.pdb
 C:\projetos-vitor\Controle-Colaborador\ControleColaborador.Shared.Modelos\obj\Debug\net8.0\ref\ControleColaborador.Shared.Modelos.dll
 C:\projetos-vitor\Controle-Colaborador\ControleColaborador.Shared.Modelos\obj\Debug\net8.0\ControleColaborador.Shared.Modelos.sourcelink.json
+C:\projetos-vitor\controle-colaboradores\ControleColaborador.Shared.Modelos\bin\Debug\net8.0\ControleColaborador.Shared.Modelos.deps.json
+C:\projetos-vitor\controle-colaboradores\ControleColaborador.Shared.Modelos\bin\Debug\net8.0\ControleColaborador.Shared.Modelos.dll
+C:\projetos-vitor\controle-colaboradores\ControleColaborador.Shared.Modelos\bin\Debug\net8.0\ControleColaborador.Shared.Modelos.pdb
+C:\projetos-vitor\controle-colaboradores\ControleColaborador.Shared.Modelos\obj\Debug\net8.0\ControleColaborador.Shared.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos-vitor\controle-colaboradores\ControleColaborador.Shared.Modelos\obj\Debug\net8.0\ControleColaborador.Shared.Modelos.AssemblyInfoInputs.cache
+C:\projetos-vitor\controle-colaboradores\ControleColaborador.Shared.Modelos\obj\Debug\net8.0\ControleColaborador.Shared.Modelos.AssemblyInfo.cs
+C:\projetos-vitor\controle-colaboradores\ControleColaborador.Shared.Modelos\obj\Debug\net8.0\ControleColaborador.Shared.Modelos.csproj.CoreCompileInputs.cache
+C:\projetos-vitor\controle-colaboradores\ControleColaborador.Shared.Modelos\obj\Debug\net8.0\ControleColaborador.Shared.Modelos.sourcelink.json
+C:\projetos-vitor\controle-colaboradores\ControleColaborador.Shared.Modelos\obj\Debug\net8.0\ControleColaborador.Shared.Modelos.dll
+C:\projetos-vitor\controle-colaboradores\ControleColaborador.Shared.Modelos\obj\Debug\net8.0\refint\ControleColaborador.Shared.Modelos.dll
+C:\projetos-vitor\controle-colaboradores\ControleColaborador.Shared.Modelos\obj\Debug\net8.0\ControleColaborador.Shared.Modelos.pdb
+C:\projetos-vitor\controle-colaboradores\ControleColaborador.Shared.Modelos\obj\Debug\net8.0\ref\ControleColaborador.Shared.Modelos.dll

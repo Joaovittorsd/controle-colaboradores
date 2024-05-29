@@ -1,0 +1,127 @@
+﻿@inject NavigationManager navigationManager
+@inject ColaboradorAPI ColaboradorAPI
+@inject CargoAPI CargoAPI
+@inject IJSRuntime JSRuntime
+
+<MudDialog>
+    <DialogContent>
+        <MudTextField T="string" Label="Nome" @bind-Value="nome" Required="true" />
+        <MudTextField T="string" Label="E-mail" @bind-Value="email" Required="true" @onblur="ValidarEmail" />
+        @if (!EmailValido) { <span style="color: red;">Email inválido</span> }
+
+        <MudTextField T="string" Label="Telefone" @bind-Value="telefone" Required="true" />
+        <MudSelect Class="mt-4" T="CargoResponse" Label="Cargos" Variant="Variant.Outlined" @bind-Value="CargoDoColobaorador" AnchorOrigin="Origin.BottomCenter">
+            @if (Cargos is not null && Cargos.Any())
+            {
+                @foreach (var cargo in Cargos)
+                {
+                    <MudSelectItem Value="cargo">@cargo.Nome</MudSelectItem>
+                }
+            }
+        </MudSelect>
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Cancel">Cancel</MudButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" @onclick="Salvar" Disabled="@(!TodosCamposPreenchidos() || isSaving)">Salvar</MudButton>
+    </DialogActions>
+</MudDialog>
+
+@code {
+    [CascadingParameter] MudDialogInstance MudDialog { get; set; }
+
+    private ICollection<ColaboradorResponse>? Colaboradores { get; set; }
+    private ICollection<CargoResponse>? Cargos { get; set; }
+    private List<CargoResponse>? CargosSelecionados { get; set; } = new();
+    private CargoResponse? CargoDoColobaorador { get; set; }
+    public ColaboradorResponse? Colaborador { get; set; }
+
+    private bool EmailValido { get; set; } = true;
+
+    private string? nome;
+    public string? email;
+    public string? telefone;
+    public string? cargoColaborador;
+    public int cargoId;
+    private bool isSaving = false;
+    private string? errorMessage;
+
+    [Parameter]
+    public string? ColaboradorId { get; set; } = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            if (!string.IsNullOrEmpty(ColaboradorId))
+            {
+                Colaborador = await ColaboradorAPI.GetColaboradorPorIdAsync(ColaboradorId!);
+                if (Colaborador != null)
+                {
+                    nome = Colaborador.Nome;
+                    email = Colaborador.Email;
+                    telefone = Colaborador.Telefone;
+                    cargoColaborador = Colaborador.NomeCargo;
+                }
+            }
+
+            Cargos = await CargoAPI.GetCargosAsync();
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Error loading data: {ex.Message}";
+        }
+    }
+
+    private async Task Salvar()
+    {
+        isSaving = true;
+        errorMessage = null;
+
+        try
+        {
+            if (!EmailValido)
+            {
+                EmailValido = await JSRuntime.InvokeAsync<bool>("validarEmail", email);
+                return;
+            }
+
+            cargoId = CargoDoColobaorador!.Id;
+            if (ColaboradorId == string.Empty)
+            {
+                var request = new ColaboradorRequest(nome!, email!, telefone!, cargoId);
+                await ColaboradorAPI.AddColaboradorAsync(request);
+            }
+            else
+            {
+                var requestEdit = new ColaboradorRequestEdit(Convert.ToInt32(ColaboradorId), nome!, email!, telefone!, cargoId);
+                await ColaboradorAPI.UpdateColaboradorAsync(requestEdit);
+            }
+
+            MudDialog.Cancel();
+            navigationManager.NavigateTo(navigationManager.Uri, true);
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Error saving data: {ex.Message}";
+        }
+        finally
+        {
+            isSaving = false;
+        }
+    }
+
+    private bool TodosCamposPreenchidos()
+    {
+        return !string.IsNullOrEmpty(nome)
+            && !string.IsNullOrEmpty(email)
+            && !string.IsNullOrEmpty(telefone)
+            && CargoDoColobaorador != null;
+    }
+
+    private async Task ValidarEmail(FocusEventArgs e)
+    {
+        EmailValido = await JSRuntime.InvokeAsync<bool>("validarEmail", email);
+    }
+
+    void Cancel() => MudDialog.Cancel();
+}

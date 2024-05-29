@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YOrggcnWEndP5yghrRjddx1jqoMvFj+dkWXbBTor17XHRo+AOm4Lv6EfzTaqOk13H/STLO1qDrXcD6MZnGc4+w==",
+  "dgSpecHash": "PooHh4aWrmQ=",
   "success": true,
-  "projectFilePath": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Dados\\ControleColaborador.Shared.Dados.csproj",
+  "projectFilePath": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Shared.Dados\\ControleColaborador.Shared.Dados.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vitto\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\vitto\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

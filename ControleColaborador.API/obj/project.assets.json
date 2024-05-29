@@ -7555,11 +7555,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.API\\ControleColaborador.API.csproj",
+      "projectUniqueName": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.API\\ControleColaborador.API.csproj",
       "projectName": "ControleColaborador.API",
-      "projectPath": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.API\\ControleColaborador.API.csproj",
+      "projectPath": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.API\\ControleColaborador.API.csproj",
       "packagesPath": "C:\\Users\\vitto\\.nuget\\packages\\",
-      "outputPath": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.API\\obj\\",
+      "outputPath": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vitto\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7570,14 +7570,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Dados\\ControleColaborador.Shared.Dados.csproj": {
-              "projectPath": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Dados\\ControleColaborador.Shared.Dados.csproj"
+            "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Shared.Dados\\ControleColaborador.Shared.Dados.csproj": {
+              "projectPath": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Shared.Dados\\ControleColaborador.Shared.Dados.csproj"
             }
           }
         }

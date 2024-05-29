@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u7N1Cqx+buHoh3uCJ4n6Yv3OtGBuF6t/PKU4Hq1geAYDG5zi1oFBO1GoDfAvW5vV4xaZ7T3fMEksVTPUixGCAA==",
+  "dgSpecHash": "jJyKg2rV67A=",
   "success": true,
-  "projectFilePath": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Modelos\\ControleColaborador.Shared.Modelos.csproj",
+  "projectFilePath": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Shared.Modelos\\ControleColaborador.Shared.Modelos.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

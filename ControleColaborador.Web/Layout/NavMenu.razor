@@ -1,39 +1,18 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">ControleColaborador.Web</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
-</div>
+﻿@inject IDialogService DialogService
+﻿﻿
+<MudNavMenu Class="mud-width-full mt-4">
 
-<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
-    <nav class="flex-column">
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
-            </NavLink>
-        </div>
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="weather">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
-            </NavLink>
-        </div>
-    </nav>
-</div>
+    <MudNavGroup Title="Colaboradores" Icon="@Icons.Material.Filled.People" Expanded="true">
+        <MudNavLink Href="/colaboradores">Exibir</MudNavLink>
+        <MudNavLink @onclick="() => AbrirDialogo(null, maxWidth)">Cadastrar</MudNavLink>
+    </MudNavGroup>
+</MudNavMenu>
 
-@code {
-    private bool collapseNavMenu = true;
+@code{
+    DialogOptions maxWidth = new DialogOptions() { MaxWidth = MaxWidth.Medium, FullWidth = true };
 
-    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
+    private void AbrirDialogo(ColaboradorResponse colaborador, DialogOptions options)
     {
-        collapseNavMenu = !collapseNavMenu;
+        DialogService.Show<ColaboradorFormulario>("Novo Colaborador", options);
     }
 }

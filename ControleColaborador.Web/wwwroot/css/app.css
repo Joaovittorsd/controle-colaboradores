@@ -101,3 +101,9 @@ a, .btn-link {
 code {
     color: #c02d76;
 }
+
+.container {
+    margin: 60px !important;
+    border-radius: 10px !important;
+}
+

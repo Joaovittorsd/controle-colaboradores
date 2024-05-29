@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j75oXu1tfVnndumpRmyTKKJEHz9YcKoSEziSJ+GAYqKXUtoIgXcyuv4iIIJqa/N/LeoA/Ckha8XCrYSxoqVvag==",
+  "dgSpecHash": "GtqXqFpfp8E=",
   "success": true,
-  "projectFilePath": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.API\\ControleColaborador.API.csproj",
+  "projectFilePath": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.API\\ControleColaborador.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vitto\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\vitto\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

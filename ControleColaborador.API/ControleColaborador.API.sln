@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleColaborador.Shared.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleColaborador.Shared.Dados", "..\ControleColaborador.Shared.Dados\ControleColaborador.Shared.Dados.csproj", "{BB42BBAE-558A-4032-9E1A-219DB486ED80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleColaborador.Web", "..\ControleColaborador.Web\ControleColaborador.Web.csproj", "{4B3377F9-3546-4B6F-B0EF-207250A51FC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleColaborador.Web", "..\ControleColaborador.Web\ControleColaborador.Web.csproj", "{4B3377F9-3546-4B6F-B0EF-207250A51FC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

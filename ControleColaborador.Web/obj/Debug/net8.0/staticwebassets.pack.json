@@ -1,43 +1,51 @@
 {
   "Files": [
     {
-      "Id": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Web\\obj\\Debug\\net8.0\\compressed\\wuuexnqek3.gz",
+      "Id": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Web\\obj\\Debug\\net8.0\\compressed\\q76z871v9h.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ControleColaborador.Web.styles.css",
+      "Id": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ControleColaborador.Web.styles.css",
       "PackagePath": "staticwebassets\\ControleColaborador.Web.styles.css"
     },
     {
-      "Id": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Web\\wwwroot\\css\\app.css",
+      "Id": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Web\\wwwroot\\JavaScript.js",
+      "PackagePath": "staticwebassets\\JavaScript.js"
+    },
+    {
+      "Id": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Web\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
+      "Id": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Web\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Web\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Web\\wwwroot\\favicon.png",
+      "Id": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Web\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Web\\wwwroot\\icon-192.png",
+      "Id": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Web\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Web\\wwwroot\\index.html",
+      "Id": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Web\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Web\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\projetos-vitor\\controle-colaboradores\\ControleColaborador.Web\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
