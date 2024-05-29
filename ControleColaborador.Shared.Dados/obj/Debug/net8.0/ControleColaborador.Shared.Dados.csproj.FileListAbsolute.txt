@@ -32,3 +32,4 @@ C:\projetos-vitor\Controle-Colaborador\ControleColaborador.Shared.Dados\obj\Debu
 C:\projetos-vitor\Controle-Colaborador\ControleColaborador.Shared.Dados\obj\Debug\net8.0\ControleColaborador.Shared.Dados.pdb
 C:\projetos-vitor\Controle-Colaborador\ControleColaborador.Shared.Dados\obj\Debug\net8.0\ControleColaborador.Shared.Dados.genruntimeconfig.cache
 C:\projetos-vitor\Controle-Colaborador\ControleColaborador.Shared.Dados\obj\Debug\net8.0\ref\ControleColaborador.Shared.Dados.dll
+C:\projetos-vitor\Controle-Colaborador\ControleColaborador.Shared.Dados\obj\Debug\net8.0\ControleColaborador.Shared.Dados.sourcelink.json

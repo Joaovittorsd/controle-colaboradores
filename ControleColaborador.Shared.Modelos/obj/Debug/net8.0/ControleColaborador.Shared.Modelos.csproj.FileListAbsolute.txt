@@ -20,3 +20,4 @@ C:\projetos-vitor\Controle-Colaborador\ControleColaborador.Shared.Modelos\obj\De
 C:\projetos-vitor\Controle-Colaborador\ControleColaborador.Shared.Modelos\obj\Debug\net8.0\refint\ControleColaborador.Shared.Modelos.dll
 C:\projetos-vitor\Controle-Colaborador\ControleColaborador.Shared.Modelos\obj\Debug\net8.0\ControleColaborador.Shared.Modelos.pdb
 C:\projetos-vitor\Controle-Colaborador\ControleColaborador.Shared.Modelos\obj\Debug\net8.0\ref\ControleColaborador.Shared.Modelos.dll
+C:\projetos-vitor\Controle-Colaborador\ControleColaborador.Shared.Modelos\obj\Debug\net8.0\ControleColaborador.Shared.Modelos.sourcelink.json
