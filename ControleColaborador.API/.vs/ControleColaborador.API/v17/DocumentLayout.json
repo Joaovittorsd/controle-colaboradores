@@ -1,0 +1,114 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB42BBAE-558A-4032-9E1A-219DB486ED80}|..\\ControleColaborador.Shared.Dados\\ControleColaborador.Shared.Dados.csproj|c:\\projetos-vitor\\controle-colaborador\\controlecolaborador.shared.dados\\dados\\controlecolaboradorcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{615B8E5B-0DEB-47B8-ACC9-CA2A42C25762}|ControleColaborador.API.csproj|c:\\projetos-vitor\\controle-colaborador\\controlecolaborador.api\\endpoints\\colaboradoresextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{615B8E5B-0DEB-47B8-ACC9-CA2A42C25762}|ControleColaborador.API.csproj|solutionrelative:endpoints\\colaboradoresextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{615B8E5B-0DEB-47B8-ACC9-CA2A42C25762}|ControleColaborador.API.csproj|C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.API\\endpoints\\cargosextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{615B8E5B-0DEB-47B8-ACC9-CA2A42C25762}|ControleColaborador.API.csproj|solutionrelative:endpoints\\cargosextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5FE7F6A-D514-499F-9806-5763F5FEC18F}|..\\ControleColaborador.Shared.Modelos\\ControleColaborador.Shared.Modelos.csproj|c:\\projetos-vitor\\controle-colaborador\\controlecolaborador.shared.modelos\\modelos\\colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB42BBAE-558A-4032-9E1A-219DB486ED80}|..\\ControleColaborador.Shared.Dados\\ControleColaborador.Shared.Dados.csproj|c:\\projetos-vitor\\controle-colaborador\\controlecolaborador.shared.dados\\dados\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5FE7F6A-D514-499F-9806-5763F5FEC18F}|..\\ControleColaborador.Shared.Modelos\\ControleColaborador.Shared.Modelos.csproj|c:\\projetos-vitor\\controle-colaborador\\controlecolaborador.shared.modelos\\modelos\\cargo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ControleColaboradorContext.cs",
+              "DocumentMoniker": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Dados\\Dados\\ControleColaboradorContext.cs",
+              "RelativeDocumentMoniker": "..\\ControleColaborador.Shared.Dados\\Dados\\ControleColaboradorContext.cs",
+              "ToolTip": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Dados\\Dados\\ControleColaboradorContext.cs",
+              "RelativeToolTip": "..\\ControleColaborador.Shared.Dados\\Dados\\ControleColaboradorContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T03:35:47.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ColaboradoresExtensions.cs",
+              "DocumentMoniker": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.API\\Endpoints\\ColaboradoresExtensions.cs",
+              "RelativeDocumentMoniker": "Endpoints\\ColaboradoresExtensions.cs",
+              "ToolTip": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.API\\Endpoints\\ColaboradoresExtensions.cs",
+              "RelativeToolTip": "Endpoints\\ColaboradoresExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:49:24.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DAL.cs",
+              "DocumentMoniker": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Dados\\Dados\\DAL.cs",
+              "RelativeDocumentMoniker": "..\\ControleColaborador.Shared.Dados\\Dados\\DAL.cs",
+              "ToolTip": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Dados\\Dados\\DAL.cs",
+              "RelativeToolTip": "..\\ControleColaborador.Shared.Dados\\Dados\\DAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:39:15.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Colaborador.cs",
+              "DocumentMoniker": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Modelos\\Modelos\\Colaborador.cs",
+              "RelativeDocumentMoniker": "..\\ControleColaborador.Shared.Modelos\\Modelos\\Colaborador.cs",
+              "ToolTip": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Modelos\\Modelos\\Colaborador.cs",
+              "RelativeToolTip": "..\\ControleColaborador.Shared.Modelos\\Modelos\\Colaborador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:39:03.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cargo.cs",
+              "DocumentMoniker": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Modelos\\Modelos\\Cargo.cs",
+              "RelativeDocumentMoniker": "..\\ControleColaborador.Shared.Modelos\\Modelos\\Cargo.cs",
+              "ToolTip": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Modelos\\Modelos\\Cargo.cs",
+              "RelativeToolTip": "..\\ControleColaborador.Shared.Modelos\\Modelos\\Cargo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:38:57.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CargosExtensions.cs",
+              "DocumentMoniker": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.API\\Endpoints\\CargosExtensions.cs",
+              "RelativeDocumentMoniker": "Endpoints\\CargosExtensions.cs",
+              "ToolTip": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.API\\Endpoints\\CargosExtensions.cs",
+              "RelativeToolTip": "Endpoints\\CargosExtensions.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAkwBcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T02:36:12.425Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
