@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{615B8E5B-0DEB-47B8-ACC9-CA2A42C25762}|ControleColaborador.API.csproj|c:\\projetos-vitor\\controle-colaborador\\controlecolaborador.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{615B8E5B-0DEB-47B8-ACC9-CA2A42C25762}|ControleColaborador.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BB42BBAE-558A-4032-9E1A-219DB486ED80}|..\\ControleColaborador.Shared.Dados\\ControleColaborador.Shared.Dados.csproj|c:\\projetos-vitor\\controle-colaborador\\controlecolaborador.shared.dados\\dados\\controlecolaboradorcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,6 +22,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-29T04:01:47.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ControleColaboradorContext.cs",
               "DocumentMoniker": "C:\\projetos-vitor\\Controle-Colaborador\\ControleColaborador.Shared.Dados\\Dados\\ControleColaboradorContext.cs",
               "RelativeDocumentMoniker": "..\\ControleColaborador.Shared.Dados\\Dados\\ControleColaboradorContext.cs",
