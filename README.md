@@ -34,9 +34,9 @@ Certifique-se de ter o SDK do .NET Core instalado na sua máquina.
 1. Certifique-se de configurar o projeto de inicialização corretamente para que os projetos `ControleColaborador.API` e `ControleColaborador.Web` sejam iniciados simultaneamente. Para fazer isso:
    - Abra a solução no Visual Studio.
    - Clique com o botão direito do mouse na solução no Gerenciador de Soluções.
-   - Selecione "Propriedades da Solução".
-   - Em "Configurações de Inicialização", marque os projetos `ControleColaborador.API` e `ControleColaborador.Web`.
-
+   - Selecione "Configurar Projetos de inicialização...".
+   - Em "Vários Projetos de inicialização",  marque os projetos `ControleColaborador.API` e `ControleColaborador.Web`.
+     
    ![alt text](image.png)
    ![alt text](image-1.png)
 
